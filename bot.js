@@ -51,4 +51,4 @@ if (message.content.startsWith(PREFIX + 'setplay')) {
 
 });
 
-KiNg66S.login("MzUwOTY4MTc5OTI3MDIzNjE5.DjPwVg.M1BzzMc2CV1x7Ov0jze4jvi2m8M"); 
+KiNg66S.login(process.env.BOT_TOKEN);
