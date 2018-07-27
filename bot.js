@@ -2,7 +2,9 @@ const Discord = require('discord.js');
 const PREFIX = "+"
 const KiNg66S = new Discord.Client();
 
-
+client.on('ready', () => {
+    console.log('I am ready!');
+});
 
 KiNg66S.on('message', message => {
   if (!message.content.startsWith(PREFIX)) return;
