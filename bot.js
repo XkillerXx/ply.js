@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const PREFIX = "+"
 const KiNg66S = new Discord.Client();
 
-client.on('ready', () => {
+KiNg66S.on('ready', () => {
     console.log('I am ready!');
 });
 
